@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "channel": "stable",
+  "app": "xwork",
+  "published_at": "2026-10-25T20:30:00+08:00",
+  "latest": {
+    "version": "1.12.0",
+    "released_at": "2026-10-25",
+    "min_version": "1.9.0",
+    "mandatory": false,
+    "notes_url": "https://raw.githubusercontent.com/gaio-x/xwork/main/update/notes/v1.12.0.md",
+    "notes": "示例清单：修复压缩包预览内存泄漏；连通性巡检支持按目标独立配速。",
+    "platforms": {
+      "win-x64": {
+        "kind": "zip-onedir",
+        "file": "xwork-1.12.0-win64.zip",
+        "size": 232783872,
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "url": "https://github.com/gaio-x/xwork/releases/download/v1.12.0/xwork-1.12.0-win64.zip",
+        "mirrors": [
+          "https://gh-proxy.com/https://github.com/gaio-x/xwork/releases/download/v1.12.0/xwork-1.12.0-win64.zip",
+          "https://ghproxy.net/https://github.com/gaio-x/xwork/releases/download/v1.12.0/xwork-1.12.0-win64.zip"
+        ]
+      }
+    }
+  },
+  "history": [
+    { "version": "1.11.0", "released_at": "2026-10-25", "tag": "v1.11.0" }
+  ]
+}
